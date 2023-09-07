@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Usage as CompoundComponentReducer } from "./patterns/compound-component-useReducer/Usage";
 import { Usage as CompoundComponent } from "./patterns/compound-component/Usage";
 import { Usage as ControlProps } from "./patterns/control-props/Usage";
 import { Usage as CustomHooks } from "./patterns/custom-hooks/Usage";
@@ -30,6 +31,11 @@ export default function App() {
       <StyledTitleContainer>
         <h1>Advanced React Pattern</h1>
       </StyledTitleContainer>
+
+      <StyledPatternContainer>
+        <h2>Compound component useReducer pattern</h2>
+        <CompoundComponentReducer />
+      </StyledPatternContainer>
 
       <StyledPatternContainer>
         <h2>Compound component pattern</h2>
