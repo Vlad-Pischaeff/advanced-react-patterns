@@ -4,7 +4,9 @@ const CounterContext = React.createContext(undefined);
 
 function CounterProvider({ children, value }) {
     return (
-        <CounterContext.Provider value={value}>{children}</CounterContext.Provider>
+        <CounterContext.Provider value={value}>
+            {children}
+        </CounterContext.Provider>
     );
 }
 

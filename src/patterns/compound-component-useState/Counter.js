@@ -32,7 +32,8 @@ function Counter({ children, onChange, initialValue = 0 }) {
 const StyledCounter = styled.div`
     display: inline-flex;
     border: 1px solid #17a2b8;
-    line-height: 1.5;
+    padding: 4px;
+    line-height: 2;
     border-radius: 0.25rem;
     overflow: hidden;
 `;
